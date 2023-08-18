@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,50 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
-    <header><h1>Digital Tasbih</h1></header>
+<body class="font-sans">
+    <header class="text-center mt-10">
+        <h1 class="text-5xl uppercase font-semibold">Digital <span class="text-cyan-600">Tasbih</span></h1>
+        <h3 class="text-4xl uppercase font-semibold mt-3">تَسْبِيح,</h3>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-11/12 mx-auto mt-14" >
+            <!-- card one -->
+            <div class="card  bg-orange-100 shadow-md ">
+                <div class="card-body">
+                  <div class ="flex justify-center">
+                    <h2 class="card-title text-3xl">Subhan Allah</h2>
+                  </div>
+                  <div class ="flex justify-center mb-2">
+                    <h2 class="card-title text-xl">سُـبْحانَ الله</h2>
+                  </div>
+                  <p class="text-center text-3xl font-bold mb-3">0</p>
+                  <div class="card-actions justify-center">
+                    <button class="btn bg-red-400">Increment</button>
+                    <button class="btn bg-green-400">Decrement</button>
+                  </div>
+                </div>
+              </div>
+
+            <div class="card  bg-orange-100 shadow-md ">
+                <div class="card-body">
+                  <div class ="flex justify-center">
+                    <h2 class="card-title text-3xl">Subhan Allah</h2>
+                  </div>
+                  <div class ="flex justify-center mb-2">
+                    <h2 class="card-title text-xl">سُـبْحانَ الله</h2>
+                  </div>
+                  <p class="text-center text-3xl font-bold mb-3">0</p>
+                  <div class="card-actions justify-center">
+                    <button class="btn bg-red-400">Increment</button>
+                    <button class="btn bg-green-400">Decrement</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
